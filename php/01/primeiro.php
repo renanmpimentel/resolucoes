@@ -4,8 +4,8 @@ header('Content-Type: text/html; charset=utf-8');
 $idade = array(10,25,20,50,60);
 
 $maior_idade = 0;
-$maior 		 = $idade[0];
-$menor 		 = $idade[0];
+$maior 	= $idade[0];
+$menor 	= $idade[0];
 
 $media_idade = ($idade[0]+$idade[1]+$idade[2]+$idade[3]+$idade[4])/5;
 
