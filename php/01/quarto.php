@@ -1,12 +1,5 @@
 <?php
 
-/*Também utilizando a estrutura de repetição FOR,  FOR, escreva um algoritmo em linguagem de 
-programação C que leia o sexo e idade de 5 pessoas, calcule e apresente: 
-a) Quantidade de pessoas do sexo masculino 
-b) Quantidade de pessoas do sexo feminino 
-c) Soma das idades de pessoas do sexo masculino 
-d) Soma das idades de pessoas do sexo feminino */
-
 $sexo = array('Masculino', 'Masculino', 'Feminino', 'Masculino', 'Feminino');
 $idade = array(20,25,30,12,10);
 
