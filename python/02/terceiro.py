@@ -4,14 +4,6 @@
 from os import system
 system("clear");
 
-# Utilizando a estrutura de dados homogênea ARRAY(vetor), escreva um
-# programa em linguagem C que faça a leitura de 10 números inteiros. Após a
-# entrada dos números:
-# a) Apresente todos os números na ordem inversa a que foi digitada.
-# b) Apresente somente os números pares digitados.
-# c) Apresente o índice do maior número digitado.
-# d) Apresente os índices dos números impares digitados.
-
 pares = [];
 impares = [];
 numeros = [];
@@ -33,10 +25,10 @@ for i in range(10):
 		maior = numeros[i];
 		indice_maior = i;
 
+print "Todos numeros em ordem invertida: "    
 for x in range(9, -1, -1):
-    invertido.insert(x, numeros[x]);
+    print numeros[x]
 
-print "Todos numeros em ordem invertida: ",invertido;    
 print "Todos os pares: ",pares;
 print "Indice do maior numero: ",indice_maior;
 print "Inidice dos impares: ",impares;
